@@ -1,73 +1,160 @@
-# 夜幕·观星地图（NightFall）隐私政策
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>夜幕·观星地图（NightFall）隐私政策</title>
+<meta name="description" content="夜幕·观星地图（NightFall）隐私政策：本应用没有账号体系，没有自己的服务器，不投放广告，不接入统计分析 SDK，不进行任何追踪。">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 1.25rem 4rem;
+    background-color: #0a0e1a;
+    background-image:
+      radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,.35) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 8%,  rgba(255,255,255,.28) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 62% 26%, rgba(255,255,255,.22) 50%, transparent 51%),
+      radial-gradient(1px 1px at 30% 38%, rgba(255,255,255,.18) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 88% 42%, rgba(255,255,255,.2) 50%, transparent 51%),
+      radial-gradient(1px 1px at 46% 6%,  rgba(255,255,255,.3) 50%, transparent 51%);
+    background-repeat: no-repeat;
+    color: #c9d1e0;
+    font: 16px/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  .lang { text-align: right; padding-top: 1.25rem; }
+  .lang a {
+    color: #8fa8ff; text-decoration: none; font-size: .875rem;
+    border: 1px solid #2a3554; border-radius: 999px; padding: .25rem .9rem;
+  }
+  .lang a:hover { border-color: #8fa8ff; }
+  h1 { font-size: 1.55rem; line-height: 1.4; color: #f0f4ff; margin: 1.5rem 0 .5rem; }
+  .effective { color: #8b94ab; font-size: .9375rem; margin: 0 0 1.5rem; }
+  .callout {
+    background: #131a2e; border-left: 3px solid #e0b45c;
+    border-radius: 0 .5rem .5rem 0; padding: .875rem 1.1rem; margin: 1.5rem 0;
+  }
+  .callout p { margin: 0; font-weight: 600; color: #ecdfc0; }
+  h2 {
+    font-size: 1.2rem; color: #f0f4ff; margin: 2.25rem 0 .75rem;
+    padding-top: 1.25rem; border-top: 1px solid #1c2440;
+  }
+  p { margin: .75rem 0; }
+  ul, ol { margin: .75rem 0; padding-left: 1.4rem; }
+  li { margin: .4rem 0; }
+  a { color: #8fa8ff; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .9375rem; }
+  th, td { border: 1px solid #232c4a; padding: .55rem .75rem; text-align: left; vertical-align: top; }
+  th { background: #161e36; color: #e6ebf7; font-weight: 600; }
+  tbody tr:nth-child(even) { background: #0e1425; }
+  footer { margin-top: 3rem; color: #5f6a83; font-size: .8125rem; text-align: center; }
+  @media (max-width: 480px) {
+    body { font-size: 15px; }
+    table { font-size: .875rem; }
+    th, td { padding: .45rem .55rem; }
+  }
+</style>
+</head>
+<body>
+<main>
 
-**生效日期：** 2026 年 9 月 19 日
+<div class="lang"><a href="privacy-policy.en.html">English</a></div>
 
-夜幕·观星地图（英文名 NightFall，以下简称"本应用"）由【开发者名称】（以下简称"我们"）开发并提供。我们非常重视你的隐私。本政策说明本应用处理哪些信息、如何处理，以及你拥有哪些控制权。请在使用前仔细阅读。
+<h1>夜幕·观星地图（NightFall）隐私政策</h1>
+<p class="effective">生效日期：2026 年 9 月 19 日</p>
 
-**一句话概括：本应用没有账号体系，没有自己的服务器，不投放广告，不接入统计分析 SDK，不进行任何追踪。你的收藏只保存在你自己的手机上。**
+<p>夜幕·观星地图（英文名 NightFall，以下简称"本应用"）由【开发者名称】（以下简称"我们"）开发并提供。我们非常重视你的隐私。本政策说明本应用处理哪些信息、如何处理，以及你拥有哪些控制权。请在使用前仔细阅读。</p>
 
-## 一、我们处理哪些信息
+<div class="callout"><p>一句话概括：本应用没有账号体系，没有自己的服务器，不投放广告，不接入统计分析 SDK，不进行任何追踪。你的收藏只保存在你自己的手机上。</p></div>
 
-| 信息类型 | 用途 | 是否离开你的设备 |
-| --- | --- | --- |
-| 位置信息（使用期间） | 定位当前位置、作为出发点计算驾车路程与时间、在地图与星图中显示你的位置 | 否，仅在你的设备上处理，我们不上传、不存储 |
-| 设备运动与姿态 | 让星图跟随手机的朝向转动 | 否，仅在你的设备上实时处理 |
-| 地名搜索词 | 通过 Apple 地图服务检索地点 | 是，发送给 Apple（见第三节） |
-| 收藏与设置 | 保存你的收藏地点、图层与界面偏好 | 否，只保存在设备本地 |
+<h2>一、我们处理哪些信息</h2>
 
-除上表所列，本应用不收集任何其他个人信息。
+<table>
+  <thead>
+    <tr><th>信息类型</th><th>用途</th><th>是否离开你的设备</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>位置信息（使用期间）</td><td>定位当前位置、作为出发点计算驾车路程与时间、在地图与星图中显示你的位置</td><td>否，仅在你的设备上处理，我们不上传、不存储</td></tr>
+    <tr><td>设备运动与姿态</td><td>让星图跟随手机的朝向转动</td><td>否，仅在你的设备上实时处理</td></tr>
+    <tr><td>地名搜索词</td><td>通过 Apple 地图服务检索地点</td><td>是，发送给 Apple（见第三节）</td></tr>
+    <tr><td>收藏与设置</td><td>保存你的收藏地点、图层与界面偏好</td><td>否，只保存在设备本地</td></tr>
+  </tbody>
+</table>
 
-## 二、位置信息与运动数据
+<p>除上表所列，本应用不收集任何其他个人信息。</p>
 
-**位置信息。** 当你授予定位权限后，本应用在**使用期间**获取你的精确位置，仅用于：
+<h2>二、位置信息与运动数据</h2>
 
-* 在地图上定位并显示你当前所在的位置；
-* 把当前位置作为出发地，计算到收藏点或所选地点的驾车路程与预计时间；
-* 在星图中对你四周进行光污染取样，呈现不同方向的地平线亮度。
+<p><strong>位置信息。</strong> 当你授予定位权限后，本应用在<strong>使用期间</strong>获取你的精确位置，仅用于：</p>
 
-位置信息**只在本机处理**：不上传到任何服务器，不写入日志，不与任何第三方共享，也不用于追踪你或向你推送广告。你可以在系统"设置 → 隐私与安全性 → 定位服务"中随时改为"仅使用期间"或"永不"。**拒绝或关闭定位不影响核心功能**——你仍可手动拖动地图、选择城市来浏览光污染地图与星图。
+<ul>
+  <li>在地图上定位并显示你当前所在的位置；</li>
+  <li>把当前位置作为出发地，计算到收藏点或所选地点的驾车路程与预计时间；</li>
+  <li>在星图中对你四周进行光污染取样，呈现不同方向的地平线亮度。</li>
+</ul>
 
-**运动与姿态数据。** 星图功能使用设备的姿态传感器，让星空画面跟随手机的朝向转动。这类数据仅在你的设备上实时处理，不存储、不传输。
+<p>位置信息<strong>只在本机处理</strong>：不上传到任何服务器，不写入日志，不与任何第三方共享，也不用于追踪你或向你推送广告。你可以在系统"设置 → 隐私与安全性 → 定位服务"中随时改为"仅使用期间"或"永不"。<strong>拒绝或关闭定位不影响核心功能</strong>——你仍可手动拖动地图、选择城市来浏览光污染地图与星图。</p>
 
-## 三、第三方服务
+<p><strong>运动与姿态数据。</strong> 星图功能使用设备的姿态传感器，让星空画面跟随手机的朝向转动。这类数据仅在你的设备上实时处理，不存储、不传输。</p>
 
-本应用自身不设服务器，但以下功能会涉及第三方服务，其数据处理受相应服务方的隐私政策约束：
+<h2>三、第三方服务</h2>
 
-1. **Apple 地图（MapKit）**：地图底图由 Apple 提供，你输入的地名搜索词会通过 Apple 的地图检索服务（MapKit 搜索）完成查询。这些请求会向 Apple 暴露你的 IP 地址以及所请求的地图范围或搜索内容。本应用不附加任何用户标识，也不保存搜索记录。Apple 的数据处理见 Apple《隐私政策》。
-2. **跳转第三方地图导航**：当你点击"导航"并选择高德地图、百度地图、Google 地图或 Apple 地图时，本应用会把目的地坐标传递给所选应用；之后的数据处理由该应用及其隐私政策管辖。
-3. **App Store 与 iCloud**：应用下载与系统服务由 Apple 提供，相关数据由 Apple 处理。
+<p>本应用自身不设服务器，但以下功能会涉及第三方服务，其数据处理受相应服务方的隐私政策约束：</p>
 
-本应用的光污染地图数据（基于 NOAA VIIRS 夜光数据与 Light Pollution Atlas）以**离线数据包**形式内置于应用中，星图、地形与海拔数据同样离线，使用这些功能不会产生网络请求。
+<ol>
+  <li><strong>Apple 地图（MapKit）</strong>：地图底图由 Apple 提供，你输入的地名搜索词会通过 Apple 的地图检索服务（MapKit 搜索）完成查询。这些请求会向 Apple 暴露你的 IP 地址以及所请求的地图范围或搜索内容。本应用不附加任何用户标识，也不保存搜索记录。Apple 的数据处理见 Apple《隐私政策》。</li>
+  <li><strong>跳转第三方地图导航</strong>：当你点击"导航"并选择高德地图、百度地图、Google 地图或 Apple 地图时，本应用会把目的地坐标传递给所选应用；之后的数据处理由该应用及其隐私政策管辖。</li>
+  <li><strong>App Store 与 iCloud</strong>：应用下载与系统服务由 Apple 提供，相关数据由 Apple 处理。</li>
+</ol>
 
-## 四、我们不做的事
+<p>本应用的光污染地图数据（基于 NOAA VIIRS 夜光数据与 Light Pollution Atlas）以<strong>离线数据包</strong>形式内置于应用中，星图、地形与海拔数据同样离线，使用这些功能不会产生网络请求。</p>
 
-* 不收集设备标识符（如 IDFA），不读取通讯录、相册等无关权限；
-* 不接入任何广告、统计分析或崩溃上报 SDK；
-* 不建立用户画像，不进行跨应用或跨网站追踪；
-* 不出售、不出租任何数据——因为我们根本没有你的数据。
+<h2>四、我们不做的事</h2>
 
-## 五、数据存储与保留
+<ul>
+  <li>不收集设备标识符（如 IDFA），不读取通讯录、相册等无关权限；</li>
+  <li>不接入任何广告、统计分析或崩溃上报 SDK；</li>
+  <li>不建立用户画像，不进行跨应用或跨网站追踪；</li>
+  <li>不出售、不出租任何数据——因为我们根本没有你的数据。</li>
+</ul>
 
-* **本地存储**：你的收藏地点与应用设置只保存在设备本地。卸载本应用即彻底删除，我们没有任何副本。
-* **缓存**：地图数据在本机有临时缓存，可随卸载一并清除。
-* **关于 iCloud 同步**：通过 iCloud 在你的设备之间同步收藏属于产品规划；若未来版本启用，相关数据将经由你自己的 iCloud 账号由 Apple 加密同步，我们无法读取，并会在启用前更新本政策。
+<h2>五、数据存储与保留</h2>
 
-## 六、未成年人
+<ul>
+  <li><strong>本地存储</strong>：你的收藏地点与应用设置只保存在设备本地。卸载本应用即彻底删除，我们没有任何副本。</li>
+  <li><strong>缓存</strong>：地图数据在本机有临时缓存，可随卸载一并清除。</li>
+  <li><strong>关于 iCloud 同步</strong>：通过 iCloud 在你的设备之间同步收藏属于产品规划；若未来版本启用，相关数据将经由你自己的 iCloud 账号由 Apple 加密同步，我们无法读取，并会在启用前更新本政策。</li>
+</ul>
 
-本应用不面向儿童定向设计，不主动收集任何个人信息，因此不会故意收集 14 周岁以下未成年人的个人信息。若你认为有相关情况，请通过下文方式联系我们。
+<h2>六、未成年人</h2>
 
-## 七、你的权利
+<p>本应用不面向儿童定向设计，不主动收集任何个人信息，因此不会故意收集 14 周岁以下未成年人的个人信息。若你认为有相关情况，请通过下文方式联系我们。</p>
 
-* **查阅与删除**：你的数据都在你自己的设备上，可随时在应用内删除收藏，或卸载应用彻底清除。
-* **权限控制**：定位等权限可随时在系统设置中开启或关闭。
-* **法律依据**：我们按照《中华人民共和国个人信息保护法》等法律法规的最小必要原则处理信息。对于欧洲经济区的用户，由于我们不在设备之外收集或处理你的个人数据，一般情况下我们不是你个人数据的控制者；如你仍有请求，欢迎通过下文方式联系我们。
+<h2>七、你的权利</h2>
 
-## 八、政策更新
+<ul>
+  <li><strong>查阅与删除</strong>：你的数据都在你自己的设备上，可随时在应用内删除收藏，或卸载应用彻底清除。</li>
+  <li><strong>权限控制</strong>：定位等权限可随时在系统设置中开启或关闭。</li>
+  <li><strong>法律依据</strong>：我们按照《中华人民共和国个人信息保护法》等法律法规的最小必要原则处理信息。对于欧洲经济区的用户，由于我们不在设备之外收集或处理你的个人数据，一般情况下我们不是你个人数据的控制者；如你仍有请求，欢迎通过下文方式联系我们。</li>
+</ul>
 
-我们可能随版本更新调整本政策，并在此页面发布、更新生效日期。重大变化会在应用内或版本说明中提示。
+<h2>八、政策更新</h2>
 
-## 九、联系我们
+<p>我们可能随版本更新调整本政策，并在此页面发布、更新生效日期。重大变化会在应用内或版本说明中提示。</p>
 
-如有任何问题、建议或隐私相关的请求，请通过以下方式联系我们：
+<h2>九、联系我们</h2>
 
-**邮箱：** flashindream@gmail.com
+<p>如有任何问题、建议或隐私相关的请求，请通过以下方式联系我们：</p>
+
+<p>
+  邮箱：【请填写联系邮箱】<br>
+  开发者：【开发者名称】
+</p>
+
+<footer>夜幕·观星地图 NightFall</footer>
+
+</main>
+</body>
+</html>
